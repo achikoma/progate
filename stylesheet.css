@@ -24,8 +24,11 @@ li {
 
 .flex-list {
   display: flex;
+  /* flex-wrapを指定してください */
+  flex-wrap: wrap;
 }
-/* .flex-list liに、flexプロパティを指定してください */
 .flex-list li {
   flex: auto;
+  /* widthを50％に指定してください */
+  width: 50%;
 }
