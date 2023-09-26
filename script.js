@@ -1,8 +1,12 @@
-let name = "にんじゃわんこ";
-console.log(name);
+let number = 7;
+console.log(number);
 
-// 変数nameの値を"とりずきん"に更新してください
-name = "とりずきん";
+// 変数numberの値に3を加えてください
+number = number + 3;
 
-// 変数nameの値を出力してください
-console.log(name);
+console.log(number);
+
+// 変数numberの値を2で割ってください
+number = number / 2;
+
+console.log(number);
