@@ -1,12 +1,11 @@
-const age = 24;
+const password = "ninjawanko";
 
-// 「age >= 20」を出力してください
-console.log(age >= 20);
+// passwordの値が"ninjawanko"の場合、「ログインに成功しました」と出力してください
+if (password === "ninjawanko") {
+  console.log("ログインに成功しました");
+}
 
-// 「age < 20」を出力してください
-console.log(age < 20);
-
-// ageの値が20以上の場合に、「私は20歳以上です」と出力してください
-if (age >= 20) {
-  console.log("私は20歳以上です");
+// passwordの値が"ninjawanko"でない場合、「パスワードが間違っています」と出力してください
+if (password !== "ninjawanko") {
+  console.log("パスワードが間違っています");
 }
