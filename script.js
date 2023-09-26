@@ -1,17 +1,19 @@
-const n = 4;
+// 変数numberを定義してください
+let number = 0;
 
-switch (n) {
-  case 1:
-    console.log("大吉です");
-    break;
-  case 2:
-    console.log("吉です");
-    break;
-  case 3:
-    console.log("小吉です");
-    break;
-  // どのcaseにも合致しなかったときの処理を追加してください
-  default:
-    console.log("凶です");
-    break;
-}
+// 変数numberに1を加えて、その後に変数numberの値を出力してください
+number = number + 1;
+console.log(number);
+
+// 上述の2行のコードを4回、貼り付けてください
+number = number + 1;
+console.log(number);
+
+number = number + 1;
+console.log(number);
+
+number = number + 1;
+console.log(number);
+
+number = number + 1;
+console.log(number);

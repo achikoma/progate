@@ -1,54 +1,14 @@
-ul {
-  list-style: none;
-  margin: 0px;
-  padding: 60px 0px;
-  text-align: center;
+.main {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f567ae;
 }
-li {
-  color: white;
-  height: 80px;
-  line-height: 80px;
+.main h1 {
+  color: #f8f8f8;
+  font-size: 34px;
 }
-.li1 {
-  background-color: #ffc562;
-}
-.li2 {
-  background-color: #a0c3f7;
-}
-.li3 {
-  background-color: #ff8db3;
-}
-.li4 {
-  background-color: #88e7ce;
-}
-
-.flex-list {
-  display: flex;
-}
-.flex-list li {
-  flex: auto;
-}
-
-/* タブレット向けレイアウト */
-@media (max-width: 1000px) {
-  .flex-list {
-    flex-wrap: wrap;
-  }
-  .flex-list li {
-    width: 50%;
-  }
-}
-
-/* スマホ向けレイアウト */
-/* ブレイクポイントが670px以下の時のメディアクエリを設定してください */
-@media (max-width: 670ppx) {
-  /* .flex-listにflex-directionを指定してください */
-  .flex-list {
-    flex-direction: column;
-  }
-
-  /* .flex-list liにmarginを0 autoに指定してください */
-  .flex-list li {
-    margin: 0 auto;
-  }
-}
+.main p {
+  color: #efefef;
+  font-size: 16px;
+}/*# sourceMappingURL=stylesheet.css.map */
