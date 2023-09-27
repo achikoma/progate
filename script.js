@@ -1,17 +1,14 @@
-// 関数の外側に定数nameを定義してください
-const name = "ひつじ仙人";
-
-const introduce = () => {
-  // 関数の内側に定数nameを定義してください
-  const name = "にんじゃわんこ";
-  
-
-  // 定数nameを出力してください
-  console.log(name);
-  
+// 定数animalを定義してください
+const animal = {
+  name: "レオ",
+  age: 3,
+  greet: () => {
+    console.log("こんにちは");
+  }
 };
 
-introduce();
+// animalのnameプロパティの値を出力してください
+console.log(animal.name);
 
-// コードを貼り付けて、定数nameを出力してください。
-console.log(name);
+// animalのgreetプロパティの関数を実行してください
+animal.greet();
