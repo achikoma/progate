@@ -16,10 +16,18 @@ class Animal {
 }
 
 class Dog extends Animal {
+  // getHumanAgeメソッドを追加してください
+  getHumanAge(){
+    return this.age * 7;
+  }
+
 }
 
-// 定数dogにDogクラスのインスタンスを代入してください
 const dog = new Dog("レオ", 4);
-
-// dogに対してinfoメソッドを呼び出してください
 dog.info();
+
+// 定数humanAgeを定義し、定数dogに対してgetHumanAgeメソッドを呼び出した値を代入してください
+const humanAge = dog.getHumanAge();
+
+// 「人間年齢で〇〇歳です」と出力してください
+console.log(`人間年齢で${humanAge}歳です`);
