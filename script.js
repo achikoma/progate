@@ -8,16 +8,15 @@ class Animal {
     console.log("こんにちは");
   }
   
-  // infoメソッドを追加してください
-  info(){
+  info() {
+    // greetメソッドを呼び出してください
+    this.greet();
+    
     console.log(`名前は${this.name}です`);
     console.log(`${this.age}歳です`);
   }
-  
 }
 
 const animal = new Animal("レオ", 3);
-animal.greet();
 
-// animalに対してinfoメソッドを呼び出してください
 animal.info();
