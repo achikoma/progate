@@ -1,12 +1,17 @@
-const check = (number) => {
-  // numberが3の倍数かどうかを戻り値として返してください
-  return number % 3 === 0;
+// 関数の外側に定数nameを定義してください
+const name = "ひつじ仙人";
+
+const introduce = () => {
+  // 関数の内側に定数nameを定義してください
+  const name = "にんじゃわんこ";
+  
+
+  // 定数nameを出力してください
+  console.log(name);
   
 };
 
-// if文の条件式で、checkを呼び出してください
-if (check(123) == true) {
-  console.log("3の倍数です");
-} else {
-  console.log("3の倍数ではありません");
-}
+introduce();
+
+// コードを貼り付けて、定数nameを出力してください。
+console.log(name);
