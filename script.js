@@ -1,14 +1,4 @@
-// 定数animalを定義してください
-const animal = {
-  name: "レオ",
-  age: 3,
-  greet: () => {
-    console.log("こんにちは");
-  }
-};
+// Animalクラスを定義してください
+class Animal{
 
-// animalのnameプロパティの値を出力してください
-console.log(animal.name);
-
-// animalのgreetプロパティの関数を実行してください
-animal.greet();
+}
