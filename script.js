@@ -4,17 +4,20 @@ class Animal {
     this.age = age;
   }
   
-  // greetメソッドを追加してください
-  greet(){
+  greet() {
     console.log("こんにちは");
+  }
+  
+  // infoメソッドを追加してください
+  info(){
+    console.log(`名前は${this.name}です`);
+    console.log(`${this.age}歳です`);
   }
   
 }
 
 const animal = new Animal("レオ", 3);
-
-console.log(`名前: ${animal.name}`);
-console.log(`年齢: ${animal.age}`);
-
-// animalに対してgreetメソッドを呼び出してください
 animal.greet();
+
+// animalに対してinfoメソッドを呼び出してください
+animal.info();
