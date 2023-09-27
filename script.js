@@ -15,11 +15,11 @@ class Animal {
   }
 }
 
-// Animalクラスを継承してDogクラスを定義してください
-class Dog extends Animal{
-
+class Dog extends Animal {
 }
 
+// 定数dogにDogクラスのインスタンスを代入してください
+const dog = new Dog("レオ", 4);
 
-const animal = new Animal("レオ", 3);
-animal.info();
+// dogに対してinfoメソッドを呼び出してください
+dog.info();
