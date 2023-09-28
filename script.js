@@ -1,4 +1,9 @@
-// 定数dogをインポートしてください
-import dog from "./dogData";
+// 以下を書き換えて、定数dog1, dog2をインポートしてください
+import { dog1, dog2 } from "./dogData";
 
-dog.info();
+// 定数dog1とdog2を出力するように左からコピーして書き換えてください
+//dog.info();
+console.log("---------");
+dog1.info();
+console.log("---------");
+dog2.info();

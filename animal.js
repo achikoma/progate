@@ -15,6 +15,4 @@ class Animal {
     }
   }
   
-  // Animalクラスをエクスポートしてください
   export default Animal;
-  

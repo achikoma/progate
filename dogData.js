@@ -1,7 +1,8 @@
-// 以下のコードを切り取ってください
 import Dog from "./dog";
 
-const dog = new Dog("レオ", 4, "チワワ");
-// ここから上を切り取ってください
+// 定数dog1, dog2を確認してください
+const dog1 = new Dog("レオ", 4, "チワワ");
+const dog2 = new Dog("ベン", 2, "プードル");
 
-export default dog;
+// 以下を書き換えて、定数dog1, dog2をエクスポートしてください
+export { dog1, dog2 };
