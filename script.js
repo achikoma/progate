@@ -1,8 +1,5 @@
-// 以下を書き換えて、定数dog1, dog2をインポートしてください
-import { dog1, dog2 } from "./dogData";
+import { dog1, dog2 } from "./data/dogData";
 
-// 定数dog1とdog2を出力するように左からコピーして書き換えてください
-//dog.info();
 console.log("---------");
 dog1.info();
 console.log("---------");
