@@ -1,36 +1,11 @@
-class Animal {
-  constructor(name, age) {
-    this.name = name;
-    this.age = age;
-  }
-  
-  greet() {
-    console.log("こんにちは");
-  }
-  
-  info() {
-    this.greet();
-    console.log(`名前は${this.name}です`);
-    console.log(`${this.age}歳です`);
-  }
-}
-
-class Dog extends Animal {
-  // infoメソッドを追加してください
-  info(){
-    this.greet();
-    console.log(`名前は${this.name}です`);
-    console.log(`${this.age}歳です`);
-    
-    const humanAge = this.getHumanAge();
-    console.log(`人間年齢で${humanAge}歳です`);
-  }
-
-  getHumanAge() {
-    return this.age * 7;
-  }
-}
-
-const dog = new Dog("レオ", 4);
-dog.info();
-
+// call constructor, new object, assign it to bike
+const bike = new Bike();
+//Change internal state by calling a function
+bike.changeGear("front", "Up");
+// add a new member to bike that did not exist before
+bike.type = "Penny Farthing";
+// check for success
+console.log(bike.calculateGearRatio()); // 4.0909...
+console.log(bike.type); // "Penny Farthing"
+// attempt to point bike to new instance of Bike
+bike = new Bike(1,2); // error
