@@ -1,5 +1,4 @@
-// Dogクラスをインポートしてください
-import Dog from "./dog";
+// 定数dogをインポートしてください
+import dog from "./dogData";
 
-const dog = new Dog("レオ", 4, "チワワ");
 dog.info();
